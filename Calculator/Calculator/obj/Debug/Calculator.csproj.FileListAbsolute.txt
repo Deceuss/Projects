@@ -1,0 +1,9 @@
+C:\Users\dyfil\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\dyfil\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\dyfil\source\repos\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\dyfil\source\repos\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\dyfil\source\repos\Calculator\Calculator\obj\Debug\Calculator.Main.resources
+C:\Users\dyfil\source\repos\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\dyfil\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\dyfil\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\dyfil\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
