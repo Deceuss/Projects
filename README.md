@@ -16,7 +16,7 @@ around 2-3 weeks (approximately) in total.
 # Calculator (Completed in my free time)
 This is a simple calculator application, the user can enter integers by pressing the keys on 
 the application. 
-The application will accept two numeric values (type double);
+The application will accept two integer values;
 - When a user presses a key for a mathematical opperation, the number in the display is saved
 - The user then enters the second number, and presses the equals key (all opperation keys 
 are disabled after pressing once), and the resulting value is displayed to the user.
