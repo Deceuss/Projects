@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WeatherApp.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="mnuTheme" Order="Primary" Text="Toggle Theme" Priority="0" Clicked="mnuTheme_Clicked"/>
+        <ToolbarItem x:Name="mnuFontSize" Order="Primary" Text="Alter Font Size" Priority="1" Clicked="mnuFontSize_Clicked"/>
+        <ToolbarItem x:Name="mnuSound" Order="Primary" Text="Toggle Sound" Priority="2" Clicked="mnuSound_Clicked"/>
+    </ContentPage.ToolbarItems>
+    
+    <Grid BackgroundColor="Black">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="55*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="40*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="lblCity" Text="City:" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="LightBlue" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblTemperature" Text="Temperature:" FontSize="15" VerticalTextAlignment="Center" BackgroundColor="LightBlue" Grid.Row="1"/>
+        <Label x:Name="lblSunriseTime" Text="Sunrise Time:" FontSize="15" VerticalTextAlignment="Center" BackgroundColor="LightBlue" Grid.Row="2"/>
+        <Label x:Name="lblSunsetTime" Text="Sunset Time:" FontSize="15" VerticalTextAlignment="Center" BackgroundColor="LightBlue" Grid.Row="3"/>
+        <Label x:Name="lblWindSpeed" Text="Wind Speed:" FontSize="15" VerticalTextAlignment="Center" BackgroundColor="LightBlue" Grid.Row="4"/>
+        <Label x:Name="lblHumidity" Text="Humidity:" FontSize="15" VerticalTextAlignment="Center" BackgroundColor="LightBlue" Grid.Row="5"/>
+
+        <Label x:Name="lblCityDisplay" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="White" Grid.Row="0" Grid.Column="2" FontSize="30"/>
+        <Label x:Name="lblTemperatureDisplay" VerticalTextAlignment="Center" BackgroundColor="White" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" FontSize="15"/>
+        <Label x:Name="lblSunriseTimeDisplay" VerticalTextAlignment="Center" BackgroundColor="White" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" FontSize="15"/>
+        <Label x:Name="lblSunsetTimeDisplay" VerticalTextAlignment="Center" BackgroundColor="White" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" FontSize="15"/>
+        <Label x:Name="lblWindSpeedDisplay" VerticalTextAlignment="Center" BackgroundColor="White" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" FontSize="15"/>
+        <Label x:Name="lblHumidityDisplay" VerticalTextAlignment="Center" BackgroundColor="White" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" FontSize="15"/>
+
+        <Picker x:Name="pckPicker" Title=" Select City" Grid.Row="6" Grid.ColumnSpan="3" FontSize="50" BackgroundColor="White" SelectedIndexChanged="pckPicker_SelectedIndexChanged">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Adelaide</x:String>
+                    <x:String>Brisbane</x:String>
+                    <x:String>Canberra</x:String>
+                    <x:String>Darwin</x:String>
+                    <x:String>Hobart</x:String>
+                    <x:String>Melbourne</x:String>
+                    <x:String>Perth</x:String>
+                    <x:String>Sydney</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+    </Grid>
+
+</ContentPage>
