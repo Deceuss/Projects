@@ -1,0 +1,17 @@
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\bin\Debug\netstandard2.0\ContactManager.deps.json
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\bin\Debug\netstandard2.0\ContactManager.dll
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\bin\Debug\netstandard2.0\ref\ContactManager.dll
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\bin\Debug\netstandard2.0\ContactManager.pdb
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\ContactManager.csprojAssemblyReference.cache
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\ContactManager.AssemblyInfoInputs.cache
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\ContactManager.AssemblyInfo.cs
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\ContactManager.csproj.CopyComplete
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\ContactManager.dll
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\ref\ContactManager.dll
+C:\Users\dyfil\source\repos\ContactManager\ContactManager\ContactManager\obj\Debug\netstandard2.0\ContactManager.pdb

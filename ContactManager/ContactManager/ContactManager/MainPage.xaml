@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ContactManager.MainPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+
+        <Label Text="First Name" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="0" BackgroundColor="LightBlue"/>
+        <Label Text="Last Name" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="1" BackgroundColor="LightBlue"/>
+        <Label Text="Mobile" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="2" BackgroundColor="LightBlue"/>
+        <Label Text="Email" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="3" BackgroundColor="LightBlue"/>
+
+        <Entry x:Name="entFirstName" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0" BackgroundColor="LightGray"/>
+        <Entry x:Name="entLastName" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" BackgroundColor="LightGray"/>
+        <Entry x:Name="entMobile" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" BackgroundColor="LightGray"/>
+        <Entry x:Name="entEmail" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3" BackgroundColor="LightGray"/>
+
+        <Picker x:Name="pckPreview" Title="Select Contact" FontSize="Title" Grid.ColumnSpan ="3" Grid.Row="4" BackgroundColor="LightBlue"
+                ItemsSource="{Binding contacts}" ItemDisplayBinding="{Binding ID}" SelectedIndexChanged="pckPreview_selected"/>
+        <Button x:Name="btnUpdate" Text="Update" FontSize="Large" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="5" BackgroundColor="LightGray" Clicked="btnUpdate_Clicked"/>
+        <Button x:Name="btnDelete" Text="Delete" FontSize="Large" Grid.Column="2" Grid.Row="5" BackgroundColor="LightGray" Clicked="btnDelete_Clicked"/>
+        
+        
+    </Grid>
+</ContentPage>
