@@ -1,0 +1,28 @@
+﻿Categories,CategoryID,int,Yes,No,The Primary Key which is an Identity Key. Is a foreign key to table Customers
+Categories,Category,varchar(50),No,No,Age bracket in which Customers will reside
+Customers,CustomerID,int,Yes,No,Primary Key For the Customers table, is a unique identifier for customers
+Customers,CategoryID,int,No,Yes,Foreign key for the related category to which the customer belongs too
+Customers,FirstName,varchar(50),No,No,Cusomter's first name
+Customers,LastName,varchar(50),No,No,Customer's last name
+Customers,Address,varchar(100),No,No,Cusotmer's home address
+Customers,State,varchar(3),No,No,The state in which the Customer lives
+Customers,PostCode,int,No,No,Cusotmer's Post code
+Customers,SendNewsletter,bit,No,No,Whether or not the customer has chosen to receive the newsletter 1 = YES, 0 = NO
+Customers,Suburb,varchar(100),No,No,NULL
+Items,ItemID,int,Yes,No,Unique identifier for Items that are for sale
+Items,TypeID,int,No,Yes,Describes the type of each item
+Items,ItemPrice,money,No,No,The price of the item
+Items,ItemDescription,varchar(100),No,No,Physical description of the item
+Items,ItemYear,varchar(4),No,No,The year in which the item was made
+ItemTypes,TypeID,int,Yes,No,Unique identifier for each type of item
+ItemTypes,Type,varchar(50),No,No,Describes the type of jewellry and gender it was intended for
+Sales,SaleID,int,Yes,No,Primary identifier for sales
+Sales,CustomerID,int,No,Yes,Foreign identity key linking the sale to a customer
+Sales,SaleDate,date,No,No,Date of the sale
+SalesItems,SaleID,int,No,Yes,Foreign Key linking to the sales table
+SalesItems,ItemID,int,No,Yes,Foreign Key linking to the sales table
+sysdiagrams,name,sysname,No,No,NULL
+sysdiagrams,principal_id,int,No,No,NULL
+sysdiagrams,diagram_id,int,Yes,No,NULL
+sysdiagrams,version,int,No,No,NULL
+sysdiagrams,definition,varbinary(-1),No,No,NULL
