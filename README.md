@@ -33,6 +33,25 @@ or contractor to a pdf file.
 This application took 3 days to build (approximately 15-20 hours in total)
 
 -------------------------------------------------------------------------------------------
+# WeatherApp
+This app displays the weatehr for Cities in AUstralia, it allows the user to select a a city, and 
+then fetches the relevant, up to date weather data using an API from OpenWeatherMap.
+It was developed for android using Xamarin Forms.
+
+This application took approximately 5 hours.
+
+-------------------------------------------------------------------------------------------
+# ContactsManager
+The ContactsManager app uses an XML document to populate various contact information, the app 
+allows the user to update or delete a contact entry. The XML document is loaded as an android asset,
+when the app runs for the first time, it will make a copy of the XML document in personal storage so 
+that it is writeable and changes that a made during runtime can be saved.
+
+The training material provided by Open Colleges was incorrect, and so I was forced to figure out how to 
+read files from android assets and write to a new file. While the fact the course content was wrong 
+was indeed frustrating, it was enjoyable and reqarding to teach myself what to do.
+
+-------------------------------------------------------------------------------------------
 # Others
 There are more projects, but as those projects required me to edit or add to existing code, they are
 not uploaded here as they are not entirely my work. An example of such a project was a book tracking 
