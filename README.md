@@ -3,6 +3,12 @@ This repository contains Various Projects from My Open Colleges Diploma and some
 
 -------------------------------------------------------------------------------------------
 # ACMEInsurance
+The following folders and files contain the code I wrote in the Projects/ACMEInsurance/ACMEInsurance directory:
+    - Business Logic Layer (folder)
+    - Presentation Layer (folder)
+    - Dataaccess Layer (folder)
+    - GlobalVariables.cs (file)
+
 This application interfaced with a local SQL database (this file is in the folder).
 The application allows the user to manipulate the SQL database through a User Interface.
 The user can add, update, delete and search for database entries, and all custome SQL 
