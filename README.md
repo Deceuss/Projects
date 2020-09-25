@@ -19,6 +19,20 @@ This application was one of the larger applications I wrote during my diploma, t
 around 2-3 weeks (approximately) in total.
 
 -------------------------------------------------------------------------------------------
+# AntiquesDatabaseSQL
+This is a database that was scripted in SQL Server 2014. The folder contains several file:
+
+- The CustomerSTP.sql file contains the procedures for creating, updating, deleting and viewing customer 
+  information. Before a customer is deleted however, a procedure first checks to see if that customer 
+  has any links to one or more sales, if not, that customer entry is approved for removal.
+- The Database Design Document.docx file gives an overview of the databse structure.
+- The GSTFunction.sql file contains a function that simply calculates the GST on an an item.
+- The Insert.sql file contains statements for inserting data into the relevent tables
+- The Queries.sql file contains several custom queires that I wrote to help with database management.
+- The Sales.sql file creates a view displaying various sales information, including GST.
+- The Select.sql file contains a query that simply shows all data in the database.
+
+-------------------------------------------------------------------------------------------
 # Calculator (Completed in my free time)
 This is a simple calculator application, the user can enter integers by pressing the keys on 
 the application. 
